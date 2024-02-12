@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="utf-8"
+    />
+    <style>
+      .main {
+        max-width: 100%;
+        overflow-x: hidden;
+        top: 15%;
+        text-align: center;
+        width: auto;
+        background-color: rgba(211, 211, 211, 0.801);
+        color: #b32c07;
+        padding: 16px;
+        height: 100%;
+        font-size: 15px;
+      }
+
+      input[type="text"] {
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #b32c07;
+        border-radius: 4px;
+      }
+
+      input[type="textbox"] {
+        width: 400px;
+        height: 200px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #b32c07;
+        border-radius: 4px;
+      }
+
+      input[type="submit"] {
+        background-color: #b32c07;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: "Single Day", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+
+    <div class="main">
+      <h1>CONTACT US</h1>
+      <form class="form" action="#" method="get">
+        <label>Name:</label> <input type="text" name="name" id="the_name" />
+        <br /><br />
+        <label>Email:</label> <input type="text" name="purpose" /> <br /><br />
+        Purpose (pick one):
+        <input type="radio" name="purpose" value="complaint" />Complaint
+        <input type="radio" name="purpose" value="review" />Review
+        <input type="radio" name="purpose" value="Signup" />Signup
+        <input type="radio" name="purpose" value="purple" />Other <br /><br />
+        <label>If Other please list purpose:</label>
+        <input type="text" name="purpose" /> <br /><br />
+        <label>Please list content below:</label>
+        <br /><br />
+        <input type="textbox" name="purpose" />
+        <br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <footer>
+      <p>SIGN UP TO BE A VOLUNTEER NOW!</p>
+    </footer>
+  </body>
+</html>
